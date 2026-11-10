@@ -3,8 +3,131 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Midterm</title>
+    <title>Bella Onojie - Food App</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- navbar / top header -->
+    <header class="header">
+      <div class="container">
+        <div class="logo">
+          <img src="images/logo.png" alt="Bella Onojie Logo" />
+        </div>
+        <nav class="nav">
+          <ul>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#product">Product</a></li>
+            <li><a href="#faq">Faq</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- hero section with phone overlay -->
+      <section id="home" class="hero">
+        <div class="container">
+          <span class="sub-heading">Food app</span>
+          <h1>Why stay hungry when you can order from Bella Onojie</h1>
+          <p>Download the Bella Onojie food app now on...</p>
+          <div class="hero-buttons">
+            <a href="#" class="btn btn-primary">Playstore</a>
+            <a href="#" class="btn btn-secondary">App store</a>
+          </div>
+          <div class="hero-image">
+            <img
+              src="images/food1.png"
+              alt="Bella Onojie app mobile screens mockup"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- how the app works section -->
+      <section id="product" class="how-it-works">
+        <div class="container">
+          <h2>How the app works</h2>
+
+          <!-- step 1 -->
+          <div class="step-row">
+            <div class="step-image">
+              <img src="images/phone1.png" alt="Create an account screen" />
+            </div>
+            <div class="step-content">
+              <span class="step-tag">Create an account</span>
+              <h3>Create/login to an existing account to get started</h3>
+              <p>An account is created with us, email and a desired password</p>
+            </div>
+            <div>
+              <img src="images/phone2.png" alt="Create an account screen" />
+            </div>
+          </div>
+
+          <!-- step 2 (flip layout using css) -->
+          <div class="step-row reverse">
+            <div class="step-content">
+              <span class="step-tag">Explore varieties</span>
+              <h3>Shop for your favorite meal as e dey hot.</h3>
+              <p>
+                Shop for your favorite meals or drinks and enjoy while doing it.
+              </p>
+              <div>
+                <img src="images/phone3.png" alt="Explore varieties screen" />
+              </div>
+              <div>
+                <img src="images/phone4.png" alt="checkout screen" />
+              </div>
+            </div>
+            <div class="step-image">
+              <img src="images/phone2.png" alt="Explore varieties screen" />
+            </div>
+          </div>
+
+          <!-- step 3 -->
+          <div class="step-row">
+            <div class="step-image">
+              <img src="images/phone3.png" alt="Checkout screen" />
+            </div>
+            <div class="step-content">
+              <span class="step-tag">Checkout</span>
+              <h3>When you done check out and get it delivered.</h3>
+              <p>When you done check out and get it delivered with ease.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- bottom call to action banner -->
+      <section class="download-banner">
+        <div class="container">
+          <h2>Download the app now.</h2>
+          <p>
+            Available on your favorite store. Start your premium experience now
+          </p>
+          <div class="banner-buttons">
+            <a href="#" class="btn btn-primary">Explore</a>
+            <a href="#" class="btn btn-secondary">Download</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer section -->
+    <footer id="contact" class="footer">
+      <div class="container">
+        <div class="footer-logo">
+          <img src="images/logo.png" alt="Bella Onojie Logo" />
+        </div>
+        <div class="social-icons">
+          <a href="#" aria-label="Twitter">🐦</a>
+          <a href="#" aria-label="Facebook">📘</a>
+          <a href="#" aria-label="Instagram">📷</a>
+        </div>
+        <div class="copyright">
+          <p>Just go to app store</p>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
