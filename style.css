@@ -1,0 +1,33 @@
+/* Base Resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Primary Button Styling */
+.btn-primary {
+    background-color: #fa4a0c;
+    color: #ffffff;
+    padding: 14px 28px;
+    border-radius: 30px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Section Flex Container helper */
+.section-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    padding: 80px 10%;
+}
+
+.section-row.reverse {
+    flex-direction: row-reverse;
+}
